@@ -1,5 +1,5 @@
 FROM alpine
-LABEL maintainer="abdul@babil.dev"
+LABEL maintainer="savani_nirav@ymail.com"
 
 RUN apk --update add git less openssh py-pip bash && \
     rm -rf /var/lib/apt/lists/* && \
